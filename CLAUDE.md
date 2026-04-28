@@ -38,7 +38,7 @@ The final deliverable is `agent.ipynb` — a self-contained notebook that extrac
 | `KIMI_BASE_URL` | `https://api.together.ai/v1/chat/completions` |
 | `TAVILY_API_KEY` | Tavily key — store as Kaggle secret |
 
-Model call parameters: `temperature: 0.3`, `max_tokens: 512` (reasoning steps) / `2048` (final answer).
+Model call parameters: `temperature: 0.6` (required for non-thinking mode — values below this produce empty responses), `max_tokens: 512` (reasoning steps) / `2048` (final answer).
 
 ### Message Format
 
