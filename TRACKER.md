@@ -9,9 +9,9 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 - [x] Platform: Kaggle
 - [x] API provider: Together AI (`https://api.together.ai/v1/chat/completions`, model `moonshotai/Kimi-K2.6`)
 - [x] Search API: Tavily
-- [ ] Obtain Together AI API key; confirm `moonshotai/Kimi-K2.6` is listed in their model catalog
-- [ ] Obtain Tavily API key
-- [ ] Add both keys as **Kaggle secrets** (before writing any code — never hardcode)
+- [x] Obtain Together AI API key; confirm `moonshotai/Kimi-K2.6` is listed in their model catalog
+- [x] Obtain Tavily API key
+- [x] Add both keys as **Kaggle secrets** (before writing any code — never hardcode)
 - [x] Install dependencies: `requests`, `tenacity`, `pydantic` (drop `beautifulsoup4` — Tavily returns structured JSON; `openai` SDK optional since we use raw HTTP)
 
 ---
@@ -27,7 +27,7 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
   - Same retry policy
   - In-memory cache (dict keyed by query) to avoid re-burning quota while iterating
 - [x] Write `count_tokens(text)` helper (word count × 1.3 heuristic) for trimming search results before appending to context
-- [ ] Smoke-test both functions independently
+- [x] Smoke-test both functions independently
 
 ---
 
