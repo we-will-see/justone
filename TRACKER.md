@@ -12,7 +12,7 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 - [ ] Obtain Together AI API key; confirm `moonshotai/Kimi-K2.6` is listed in their model catalog
 - [ ] Obtain Tavily API key
 - [ ] Add both keys as **Kaggle secrets** (before writing any code — never hardcode)
-- [ ] Install dependencies: `requests`, `tenacity`, `pydantic` (drop `beautifulsoup4` — Tavily returns structured JSON; `openai` SDK optional since we use raw HTTP)
+- [x] Install dependencies: `requests`, `tenacity`, `pydantic` (drop `beautifulsoup4` — Tavily returns structured JSON; `openai` SDK optional since we use raw HTTP)
 
 ---
 
