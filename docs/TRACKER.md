@@ -2,6 +2,8 @@
 
 Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 
+**Current status:** Phases 1 & 2 complete. Phase 3 cells (extraction + validation) are in `notebooks/agent.ipynb`; manual review of validation output is the only Phase 3 item still pending. Next up: Phase 4 — ReAct agentic loop.
+
 ---
 
 ## Phase 1 — Environment Setup
@@ -36,7 +38,8 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 - [x] Upload `your_chats.json` to Kaggle dataset or notebook working directory
 - [x] Write extraction snippet to load the file and pull representative responses
 - [x] Build `YOUR_STYLE_PROMPT` from those replies — this becomes the system message that defines ALL agent behavior
-- [ ] Validate the prompt produces responses that match your expected reasoning patterns on 2–3 test questions
+- [x] Add validation cell that runs 2–3 test questions through the style prompt
+- [ ] Manually review validation output and confirm reasoning style matches before wiring into the agent loop
 
 ---
 
