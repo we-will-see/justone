@@ -33,9 +33,9 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 
 ## Phase 3 — Style Extraction from Chat History
 
-- [ ] Upload `your_chats.json` to Kaggle dataset or notebook working directory
-- [ ] Write extraction snippet to load the file and pull representative responses
-- [ ] Build `YOUR_STYLE_PROMPT` from those replies — this becomes the system message that defines ALL agent behavior
+- [x] Upload `your_chats.json` to Kaggle dataset or notebook working directory
+- [x] Write extraction snippet to load the file and pull representative responses
+- [x] Build `YOUR_STYLE_PROMPT` from those replies — this becomes the system message that defines ALL agent behavior
 - [ ] Validate the prompt produces responses that match your expected reasoning patterns on 2–3 test questions
 
 ---
