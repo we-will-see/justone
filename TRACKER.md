@@ -18,15 +18,15 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 
 ## Phase 2 — Core API Functions with Hardening
 
-- [ ] Implement `kimi_call(messages, max_tokens=512)`:
+- [x] Implement `kimi_call(messages, max_tokens=512)`:
   - Explicit `timeout=30` on the HTTP call
   - `@tenacity.retry` with exponential backoff (3 attempts, 2→4→8s) on 429/5xx
   - Raises on unexpected response shape
-- [ ] Implement `web_search(query, max_results=5)`:
+- [x] Implement `web_search(query, max_results=5)`:
   - Explicit `timeout=10`
   - Same retry policy
   - In-memory cache (dict keyed by query) to avoid re-burning quota while iterating
-- [ ] Write `count_tokens(text)` helper (word count × 1.3 heuristic) for trimming search results before appending to context
+- [x] Write `count_tokens(text)` helper (word count × 1.3 heuristic) for trimming search results before appending to context
 - [ ] Smoke-test both functions independently
 
 ---
