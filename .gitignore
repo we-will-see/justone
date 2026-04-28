@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Processed data artifacts
+data/processed/*
+!data/processed/.gitkeep
