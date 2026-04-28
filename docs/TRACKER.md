@@ -73,4 +73,4 @@ Progress tracker for building the Kimi K2.6 general-purpose agentic workflow.
 - [ ] Decide output artifact: print to cell output, save to CSV, or both
 - [ ] Organize cells: install → secrets → helper functions → style extraction → agent loop → benchmark runner
 - [ ] Add a single markdown cell at top explaining how to run
-- [ ] Commit final notebook to repo as `agent.ipynb`
+- [ ] Commit final notebook to repo as `notebooks/agent.ipynb`

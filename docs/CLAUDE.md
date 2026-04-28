@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **justone** is a general-purpose agentic workflow built on Kimi K2.6. The agent's reasoning style and behavior are defined entirely by the user's own chat history (`your_chats.json`) — there is no hardcoded domain logic. The target runtime is a **Kaggle notebook**.
 
-The final deliverable is `agent.ipynb` — a self-contained notebook that extracts a style prompt from chat history, then runs a ReAct-style search-augmented loop using Kimi K2.6 and Tavily.
+The final deliverable is `notebooks/agent.ipynb` — a self-contained notebook that extracts a style prompt from chat history, then runs a ReAct-style search-augmented loop using Kimi K2.6 and Tavily.
 
 ## Architecture
 
